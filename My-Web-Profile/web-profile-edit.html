@@ -3,7 +3,7 @@
   <!-- meta -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <link rel="stylesheet" href="web_profile_edit.css">
   <title>Omotola Olasope</title>
 </head>
 
@@ -11,53 +11,71 @@
 
   <!-- start section navbar -->
   <nav id="main-nav" style="display: block;">
-    <div>
-      <a href="web-profile-edit.html"><img src="images/logo.jpeg" class="logo" alt="logo"></a>
-    </div>
+    <div class="vertical-centerer flex-container">
+      <div class="flex-container space-between header-content">
+        <div>
+          <a href="web-profile-edit.html">
+            <span>
+              <img src="images/logo.jpeg" class="logo" alt="logo">
+            </span>
+          </a>
+        </div>
 
-    <div>
-      <ul>
-        <li><a href="#header" class="smoothScroll">Home</a></li>
-        <li><a href="#about" class="smoothScroll">About</a></li>
-        <li><a href="#journal" class="smoothScroll">Portfolio</a></li>
-      </ul>
+        <div class="container">
+          <ul class="menu">
+            <li><a href="#header" class="smoothScroll">Home</a></li>
+            <li><a href="#about" class="smoothScroll">About</a></li>
+            <li><a href="#journal" class="smoothScroll">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </nav>
   <!-- End section navbar -->
 
   <!-- start section header -->
   <div id="header" class="home">
-    <h1>Hello!</h1>
-    <h1>I'm Omotola, a Back-End Web Developer and Security Intelligence Analyst</h1><br>
-    <ul>
-      <li><a href="https://twitter.com/omotolaolasope"><em>Twitter</em></a></li>
-      <li><a href="https://www.instagram.com/omotolaolasope"><em>Instagram</em></a></li>
-      <li><a href="https://www.linkedin.com/in/omotola-olasope/"><em>LinkedIn</em></a></li>
-      <li><a href="https://github.com/Omotola-Olasope"><em>GitHub</em></a></li>
-    </ul>
+    <div>
+      <h1>Hello!</h1>
+      <h1>I'm Omotola, a Back-End Web Developer and Security Intelligence Analyst</h1>
+    </div>
+    <div id="menu-outer">
+      <div class="table">
+        <ul id="horizontal-list">
+          <li><a href="https://twitter.com/omotolaolasope"><em>Twitter</em></a></li>
+          <li><a href="https://www.instagram.com/omotolaolasope"><em>Instagram</em></a></li>
+          <li><a href="https://www.linkedin.com/in/omotola-olasope/"><em>LinkedIn</em></a></li>
+          <li><a href="https://github.com/Omotola-Olasope"><em>GitHub</em></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
   <!-- End section header -->
 
 
   <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div>
-      <img src="images/ME.jpeg" class="me" alt="me">
+  <div id="about" class="row">
+    <div class="column-left">
+      <div>
+        <img src="images/ME.jpeg" class="me" alt="me">
+      </div>
+      <div>
+        <a href="/assets/Resume-General.pdf"><b>Download Resume</b></a>
+      </div>
     </div>
-    <div>
-      <a href="/assets/Resume-General.pdf"><b>Download Resume</b></a>
-    </div>
-    <div>
-      <p>I'm a Back-End Web Developer with less than 1 year of industry experience and a Security Intelligence Analyst with over 6 years experience.</p>
-      <p>Currently, I work at the Department of State Services (DSS), a Nigerian Security Intelligence Agency. I focus on the protection and preservation of non-military government assets. This includes personnel, infrastructure, local and international dignitaries.</p>
-      <p>Before working for the DSS, I worked at United Bank for Africa; A leading pan-African financial services institution with a global footprint, where I was a Customer Relationship and Funds Transfer Officer.</p>
-      <p>I have developed interest in creating and deploying database-backed APIs, building web applications and analyzing security intelligence. My hobbies are travelling and multi genre music critiquing.</p>
+    <div class="column-right">
+      <div>
+        <p>I'm a Back-End Web Developer with less than 1 year of industry experience and a Security Intelligence Analyst with over 6 years experience.</p>
+        <p>Currently, I work at the Department of State Services (DSS), a Nigerian Security Intelligence Agency. I focus on the protection and preservation of non-military government assets. This includes personnel, infrastructure, local and international dignitaries.</p>
+        <p>Before working for the DSS, I worked at United Bank for Africa; A leading pan-African financial services institution with a global footprint, where I was a Customer Relationship and Funds Transfer Officer.</p>
+        <p>I have developed interest in creating and deploying database-backed APIs, building web applications and analyzing security intelligence. My hobbies are travelling and multi genre music critiquing.</p>
+      </div>
     </div>
   </div>
   <!-- end section about us -->
 
   <!-- start section services -->
-  <div id="services" class="paddsection">
+  <div id="services" class="column-right">
     <div>
       <h2>MY SKILLS</h2>
     </div>
@@ -72,7 +90,7 @@
   <!-- end section services -->
 
   <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
+  <div id="journ" class="journal">
     <div>
       <h2>MY PORTFOLIO</h2>
     </div>
@@ -96,7 +114,7 @@
   <!-- End section journal -->
 
   <!-- start section footer -->
-  <div id="footer" class="text-center">
+  <div id="foot" class="footer">
     <div>
       <p>© 2022 Omotola Olasope</p>
     </div>

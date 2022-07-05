@@ -1,0 +1,152 @@
+* {
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    color: white;
+    background: rgb(2, 17, 24);
+}
+
+h1 {
+    text-align: center;
+}
+
+#main-nav {
+    color: #697681;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#main-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+#main-nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.home {
+    margin-top: 200px; /* Add a top margin to avoid content overlay */
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the container/navbar */
+    position: relative;
+}
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+    text-align: center;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+	display: inline;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.me {
+    width: 300px;
+}
+
+.journal img {
+    width: 500px;
+}
+
+.vertical-centerer {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.header-content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    list-style: none;
+    list-style-type: none;
+}
+
+.menu > li {
+    display: inline;
+    margin-left: 37.5px;
+}
+
+/* The footer bar */
+.footer {
+    /* position: fixed; */ /* Set the footer to fixed position */
+    bottom: 0; /* Position the footer at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: rgb(39, 112, 172);
+    color: white;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+}
+
+.footer li {
+   /* float: left; */
+   display:inline-block;
+}
+  
+.footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.footer li a:hover {
+    background-color: #111111;
+}
