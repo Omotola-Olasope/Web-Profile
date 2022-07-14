@@ -1,7 +1,15 @@
 * {
     font-family: 'Century Gothic', Helvetica, sans-serif;
-    color: white;
-    background: rgb(2, 17, 24);
+    color: rgb(14, 7, 7);
+    /*background: rgb(2, 17, 24);*/
+}
+
+
+#header {
+    /*background-image: url("images/logo.jpeg");*/
+    background-image: url("images/logo2.png");
+    background-position: center center;
+    background-size:contain;
 }
 
 h1 {
@@ -18,7 +26,7 @@ h1 {
 #main-nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #1a1717;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
