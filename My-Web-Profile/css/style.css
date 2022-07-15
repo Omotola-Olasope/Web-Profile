@@ -1,32 +1,26 @@
 * {
     font-family: 'Century Gothic', Helvetica, sans-serif;
-    color: rgb(14, 7, 7);
+    color: black;
     /*background: rgb(2, 17, 24);*/
-}
-
-
-#header {
-    /*background-image: url("images/logo.jpeg");*/
-    background-image: url("images/logo2.png");
-    background-position: center center;
-    background-size:contain;
 }
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 #main-nav {
-    color: #697681;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    padding: 10px;
+    background-image: linear-gradient(to right, silver, rgb(26, 133, 221));
 }
 
 #main-nav a {
     float: left;
     display: block;
-    color: #1a1717;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,30 +29,42 @@ h1 {
 /* Change background on mouse-over */
 #main-nav a:hover {
     background: #ddd;
-    color: black;
 }
 
 .home {
     margin-top: 200px; /* Add a top margin to avoid content overlay */
+    color: white;
 }
 
-.logo {
+/* .logo {
     width: 200px;
     display: block;
     margin: auto;
 
     /* Center and scale the image nicely */
-    background-position: center;
+/*     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     /* Needed to position the container/navbar */
-    position: relative;
+ /*    position: relative;
+} */
+
+#header {
+    margin: 0px;
+    border: 0px;
+    padding: 100px;
+    background-image: url(../images/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1350px 650px;
 }
 
 #menu-outer {
 	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+#menu-outer a:hover {
+    background:  rgb(26, 133, 221);
 }
 
 .table {
@@ -85,12 +91,28 @@ ul#horizontal-list li {
     flex: 50%;
 }
 
+.column-left {
+    padding: 10px;
+}
+
+.column-right {
+    padding: 20px;
+    text-align: justify;
+    font-size: larger;
+}
+
+.skills {
+    padding: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
 .me {
     width: 300px;
 }
 
 .journal img {
-    width: 500px;
+    width: 300px;
 }
 
 .vertical-centerer {
@@ -114,6 +136,8 @@ ul#horizontal-list li {
 }
 
 .menu {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
     list-style-type: none;
 }
@@ -128,7 +152,7 @@ ul#horizontal-list li {
     /* position: fixed; */ /* Set the footer to fixed position */
     bottom: 0; /* Position the footer at the bottom of the page */
     width: 100%; /* Full width */
-    background-color: rgb(39, 112, 172);
+    background-image: linear-gradient(to right, silver, rgb(26, 133, 221));
     color: white;
     text-align: center;
 }
